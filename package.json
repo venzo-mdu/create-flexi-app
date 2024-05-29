@@ -1,0 +1,19 @@
+{
+  "name": "create-flexi-app",
+  "version": "1.0.0",
+  "description": "A react boilerplate cli tool",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html",
+    "build": "parcel build index.js"
+  },
+  "bin": {
+    "create-boilerplate": "./create-app.js"
+  },
+  "author": "Vasanth",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  }
+}
